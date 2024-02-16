@@ -16,5 +16,6 @@ resource "aws_s3_bucket" "docking_bay" {
     git_org              = "akinpanw"
     git_repo             = "terragoat"
     yor_trace            = "d7102c8d-6fc8-4818-b9ee-32748544d1a3"
+    application          = "sockshop"
   }
 }
