@@ -38,6 +38,7 @@ resource "aws_db_instance" "default" {
   lifecycle {
     ignore_changes = ["password"]
   }
+  performance_insights_kms_key_id = "CKV_ANY"
 }
 
 resource "aws_db_option_group" "default" {
