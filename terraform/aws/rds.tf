@@ -92,6 +92,7 @@ resource "aws_rds_cluster" "app6-rds-cluster" {
     git_repo             = "terragoat"
     yor_trace            = "fcffb961-d859-4be5-997f-d51b50665ada"
   }
+  kms_key_id = "CKV_ANY"
 }
 
 resource "aws_rds_cluster" "app7-rds-cluster" {
